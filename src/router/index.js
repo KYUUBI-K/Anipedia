@@ -7,6 +7,7 @@ import About from "@/pages/About";
 import Searched from "@/pages/Searched";
 import AnimeInfo from "@/pages/AnimeInfo";
 import CharacterInfo from "@/pages/CharacterInfo";
+import Genres from "@/pages/Genres";
 
 const routes = [
   {
@@ -48,6 +49,11 @@ const routes = [
     path: "/character/:id?",
     name: "character",
     component: CharacterInfo,
+  },
+  {
+    path: "/genres",
+    name: "genres",
+    component: Genres,
   },
 ];
 

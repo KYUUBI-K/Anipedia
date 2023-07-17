@@ -4,7 +4,7 @@
       <img
         class="character-img"
         :src="animeStore.character.images?.jpg?.image_url"
-        alt="err"
+        alt=""
       />
     </div>
     <div class="character-info-box">

@@ -25,6 +25,9 @@
                   >Random</router-link
                 >
               </li>
+              <li>
+                <router-link class="nav_link" to="/genres">Genres</router-link>
+              </li>
             </ul>
             <!-- <search-block /> -->
           </div>
@@ -38,7 +41,7 @@
         <div class="about">
           <router-link class="nav_about" to="/about">About us</router-link>
         </div>
-        <div class="footer_anipedia">© anipedia.org 2023</div>
+        <div class="footer_anipedia">anipedia 2023</div>
       </footer>
     </div>
   </div>
@@ -138,10 +141,12 @@ li {
 .content {
   margin-top: 20px;
   padding: 1rem;
+  min-height: 500px;
 }
 .footer {
   color: #7c7a7a;
   font: 1.6rem "Roboto", sans-serif;
+
   background-color: #1f1f1f;
   margin: 0 -30px;
   padding: 15px 30px;
